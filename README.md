@@ -9,7 +9,8 @@ The Neural network was built from "scratch", using only NumPy without other fram
 
 ## Result
 
-After 3000 iterations, the validation loss ends very low with 0.146, the prediction on test data returns pretty good result, see graph for more detail. However, the model overestimes bike ridership in December because it hasn't had sufficient holiday season training examples. 
+After 3000 iterations, the validation loss ends very low with 0.146, the prediction on test data returns pretty good result, see graph for more detail. 
 
+However, the network is not able to capture the seasonality in the data during Christmas. This might be because of the lack of data for the holiday period. The issue is that there is only one period of Christmas Holidays that the model has encountered during. So, it is not able to figure out if that is an aberration or a pattern. Had the model seen more such holiday periods, it should have been able to figure that out. Augmenting the original data with more data for Christmas holidays should surely help.
 
 
