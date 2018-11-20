@@ -1,5 +1,5 @@
 # BikeShare-Prediction-with-NeuralNet
-Developed as coursework for Udacity Deep Learning Nanodegree. In this project, I built a simple neural network,1 hidden layer with 4 units, sigmoid as activation function, to predict daily bike rental ridership at Washington D.C..
+Developed as coursework for Udacity Deep Learning Nanodegree. In this project, I built a simple neural network,1 hidden layer with 12 units, sigmoid as activation function, to predict daily bike rental ridership at Washington D.C..
 
 ## Dataset & Background
 Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions, precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington D.C., USA which is publicly available in http://capitalbikeshare.com/system-data. 
@@ -9,7 +9,7 @@ The Neural network was built from "scratch", using only NumPy without other fram
 
 ## Result
 
-After 15000 iterations, the validation loss ends very low with 0.143, the prediction on test data returns pretty good result, see graph for more detail.
+After 3000 iterations, the validation loss ends very low with 0.146, the prediction on test data returns pretty good result, see graph for more detail. However, the model overestimes bike ridership in December because it hasn't had sufficient holiday season training examples. 
 
 
 
