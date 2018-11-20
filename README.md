@@ -9,7 +9,7 @@ The Neural network was built from "scratch", using only NumPy without other fram
 
 ## Result
 
-After 1500 iterations, the validation loss is really low with 0.143, the prediction on test data returns pretty good result, see graph for more detail.
+After 15000 iterations, the validation loss ends very low with 0.143, the prediction on test data returns pretty good result, see graph for more detail.
 
 
 
